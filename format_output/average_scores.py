@@ -6,9 +6,8 @@ def average() :
     return average_score
 
 
-if __name__ == '__average_scores__':
-    lastName = input("Enter your last name: ")
-    firstName = input("Enter your first name: ")
-    age = input("Enter your age: ")
-    average_scores = average()
-    print("{}, {} age: {} Average grade: {}".format(lastName, firstName, age, average_scores))
+lastName = input("Enter your last name: ")
+firstName = input("Enter your first name: ")
+age = input("Enter your age: ")
+average_scores = average()
+print("{}, {} age: {} Average grade: {}".format(lastName, firstName, age, average_scores))
