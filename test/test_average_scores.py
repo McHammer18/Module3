@@ -1,7 +1,7 @@
 import unittest
 from unittest import mock
-
 from format_output import average_scores
+
 
 class MyTestCase(unittest.TestCase):
     def test_average(self):
