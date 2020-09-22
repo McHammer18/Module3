@@ -8,7 +8,7 @@ Module 3 - average scores
 
 
 def average(test1, test2, test3):
-    if (test1 > 0 and test2 > 0 and test3 > 0):
+    if test1 > 0 and test2 > 0 and test3 > 0:
         average_score = (int(test1) + int(test2) + int(test3)) / 3
     else:
         raise ValueError
