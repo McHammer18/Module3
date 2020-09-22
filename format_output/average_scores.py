@@ -25,6 +25,5 @@ if __name__ == '__main__':
     try:
         average_scores = average(int(test1), int(test2), int(test3))
     except Exception:
-        raise(ValueError)
-        print("There was a problem finding the average score")
+        raise ValueError
     print("{}, {} age: {} Average grade: {}".format(lastName, firstName, age, average_scores))
