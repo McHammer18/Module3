@@ -6,6 +6,7 @@ Module 3 - average scores
 09/20/20
 """
 
+
 def average() :
     test1 = input("Enter test 1 score: ")
     test2 = input("Enter test 2 score: ")
